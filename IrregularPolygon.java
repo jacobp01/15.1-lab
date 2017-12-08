@@ -1,33 +1,26 @@
+import java.awt.geom.*;     // for Point2D.Double
+import java.util.ArrayList; // for ArrayList
+// import gpdraw.*;
 
-/**
- * Write a description of class IrregularPolygon here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
-public class IrregularPolygon
-{
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class IrregularPolygon
-     */
-    public IrregularPolygon()
-    {
-        // initialise instance variables
-        x = 0;
+public class IrregularPolygon{
+   private ArrayList <Point2D.Double> myPolygon;
+   // constructors
+   public IrregularPolygon() {
+    
     }
 
-    /**
-     * An example of a method - replace this comment with your own
-     * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
-    }
+   // public methods
+   public void add(Point2D.Double aPoint) { }
+
+   public void draw() { }
+
+   public double perimeter() {
+       int perimeter = 0;
+       for(Point2D.Double pt: myPolygon){
+           pt.getX = "x1";
+           pt.getY = "y1";
+        }
+   }
+
+   public double area() { }
 }
